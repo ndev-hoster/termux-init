@@ -16,8 +16,8 @@ plugins=(
 source $ZSH/oh-my-zsh.sh
 alias rcedit="nano ~/.zshrc && refsh"
 alias refsh="source ~/.zshrc"
-alias upd="pkg update && pkg upgrade"
-alias get="pkg install"
+alias update="pkg update -y && pkg upgrade -y"
+alias get="pkg install -y"
 alias ubuntu="proot-distro login ubuntu"
 alias rpi="ssh rpi@100.92.81.11"
 alias kompyuter="ssh kratoes@100.84.180.3"
