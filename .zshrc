@@ -22,6 +22,7 @@ alias get="pkg install"
 alias ubuntu="proot-distro login ubuntu"
 alias rpi="ssh rpi@100.92.81.11"
 alias kompyuter="ssh kratoes@100.84.180.3"
+alias showrc="cat ~/.zshrc"
 mkcd () {
 mkdir -p "$1"
 cd "$1"
