@@ -8,4 +8,4 @@ chmod +x init.sh
 source init.sh
 ```
 ---
-`*Note: this is for personal use, you can use it for yourself*`
+**`Note: this is for personal use, you can use it for yourself`**
