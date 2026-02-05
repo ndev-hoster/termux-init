@@ -22,6 +22,7 @@ alias ubuntu="proot-distro login ubuntu"
 alias rpi="ssh rpi@100.92.81.11"
 alias kompyuter="ssh kratoes@100.84.180.3"
 alias showrc="tail -n 30 ~/.zshrc"
+alias code-on="ssh -f -N -L 8385:localhost:8385 kratoes@100.84.180.3"
 mkcd () {
 mkdir -p "$1"
 cd "$1"
